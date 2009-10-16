@@ -29,7 +29,7 @@
 
 (define _float-t _double)
 
-(define lib (ffi-lib "./gain_analysis.so"))
+(define lib (ffi-lib "gain_analysis"))
 
 (define init-gain-analysis
   (get-ffi-obj "InitGainAnalysis" lib
