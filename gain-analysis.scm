@@ -1,5 +1,11 @@
 #lang scheme
 
+; A few notes on the code:
+;  The included, built, and tested against version of gain_analysis.c comes
+;  from the WaveGain sources.  This version is significantly different to the
+;  version from the lame sources, which is probably the most up to date version.
+;  Why?  Well, it's the only version I had handy at the time.  ;)
+
 ; The title of this lib should be sound/gain-analysis.scm.
 ; (require sound/gain-analysis/raw) - this
 ; (require sound/gain-analysis) - a nice wrapper using exceptions, vectors, etc
